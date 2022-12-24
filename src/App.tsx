@@ -60,7 +60,7 @@ const App: FunctionComponent = () => {
           <div>
             <h2>{result}</h2>
             <p>Vous avez choisi {playerChoice}</p>
-            <p>L'ordinanteur à choisi {computerChoice}</p>
+            <p>L'ordinateur à choisi {computerChoice}</p>
             <p>nonce : {nonce}</p>
             <p>{computerChoice + nonce} : {hash}</p>
             <Button onClick={setNewGame}>Rejouer</Button>
